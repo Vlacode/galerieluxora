@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez notre collection exclusive de produits premium.">
+    <title>Luxora - Galerie Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-clair">
+    <!-- Navigation bar -->
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <span class="brand-icon">✨</span>
+                <span class="brand-text">Luxora</span>
+            </div>
+            
+            <ul class="navbar-menu">
+                <li><a href="#produits" class="nav-link">Produits</a></li>
+                <li><a href="#nouveautes" class="nav-link">Nouveautés</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Basculer le mode sombre/clair">
+                🌙
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <header class="hero" role="banner">
+        <div class="hero-content">
+            <h1>Découvrez l'Excellence</h1>
+            <p>Une collection curatée de produits premium pour sublimer votre quotidien</p>
+        </div>
+    </header>
+
+    <!-- Main gallery -->
+    <main class="gallery-section" id="produits">
+        <div class="section-header">
+            <h2>Nos Produits Phares</h2>
+            <p class="section-subtitle">Sélection exclusive de qualité supérieure</p>
+        </div>
+
+        <div class="gallery">
+            <!-- Produit 1 -->
+            <article class="card fade-in" data-name="Écouteurs Sonora Elite" data-price="149€">
+                <div class="card-image-container">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" 
+                         alt="Écouteurs Sonora Elite - Casque audio sans fil haut de gamme"
+                         class="card-image">
+                    <span class="badge badge-bestseller">Best Seller</span>
+                </div>
+
+                <div class="card-content">
+                    <h3 class="card-title">Écouteurs Sonora Elite</h3>
+                    <p class="card-description">Immersion sonore premium avec réduction de bruit adaptative. Autonomie 48h, design ergonomique.</p>
+                    
+                    <div class="card-footer">
+                        <span class="price">149€</span>
+                        <button class="btn-cart" aria-label="Ajouter Écouteurs Sonora Elite au panier">
+                            <span class="cart-icon">🛒</span>
+                            Ajouter
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produit 2 -->
+            <article class="card fade-in" data-name="Montre Chrono Luxe" data-price="299€">
+                <div class="card-image-container">
+                    <img src="./Image/Montre chrono luxe.jpg" 
+                        alt="Montre Chrono Luxe - Montre-bracelet automatique premium"
+                        class="card-image">
+                    <span class="badge badge-nouveau">Nouveau</span>
+                </div>
+
+                <div class="card-content">
+                    <h3 class="card-title">Montre Chrono Luxe</h3>
+                    <p class="card-description">Mécanisme suisse de précision avec boîtier titane. Étanche 100m, garantie 10 ans.</p>
+                    
+                    <div class="card-footer">
+                        <span class="price">299€</span>
+                        <button class="btn-cart" aria-label="Ajouter Montre Chrono Luxe au panier">
+                            <span class="cart-icon">🛒</span>
+                            Ajouter
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produit 3 -->
+            <article class="card fade-in" data-name="Sérum Éclat Bio Premium" data-price="89€">
+                <div class="card-image-container">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop" 
+                         alt="Sérum Éclat Bio Premium - Soin visage naturel et luxueux"
+                         class="card-image">
+                    <span class="badge badge-promo">-20%</span>
+                </div>
+
+                <div class="card-content">
+                    <h3 class="card-title">Sérum Éclat Bio Premium</h3>
+                    <p class="card-description">Concentré 100% biologique avec acide hyaluronique naturel. Résultats visibles en 14 jours.</p>
+                    
+                    <div class="card-footer">
+                        <span class="price">89€</span>
+                        <button class="btn-cart" aria-label="Ajouter Sérum Éclat Bio Premium au panier">
+                            <span class="cart-icon">🛒</span>
+                            Ajouter
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Luxora</h4>
+                <p>Votre destination pour les produits premium.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens</h4>
+                <ul>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#nouveautes">Nouveautés</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Luxora. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
