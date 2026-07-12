@@ -114,7 +114,10 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-
+.nav-title {
+    text-decoration: none;
+    color: inherit;
+}
 .navbar-menu {
     display: flex;
     list-style: none;
